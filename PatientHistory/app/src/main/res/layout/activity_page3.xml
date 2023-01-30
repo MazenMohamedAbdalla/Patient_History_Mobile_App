@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E9E9"
+    tools:context=".Page_3">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/grey_circle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_button"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/next_clk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_button2"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back_clk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" هناك مخاوف بشأن نشاطك الجنسي ترغب مناقشتها مع الطبيب ؟"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="هل من عمليات جراحية لأمراض نساء و توليد سابقة ؟"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="إذا كانت إجابة السؤال السابق نعم يرجى تحديد أي نوع و السنة ؟"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476" />
+
+    <CheckBox
+        android:id="@+id/checkBox23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="جراحة العقم"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <CheckBox
+        android:id="@+id/checkBox25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="ولادة قيصرية"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611" />
+
+    <CheckBox
+        android:id="@+id/checkBox27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="جراحة المبيض"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <CheckBox
+        android:id="@+id/checkBox24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="تنظير الرحم"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.660"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.536" />
+
+    <CheckBox
+        android:id="@+id/checkBox26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="ربط البوق"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.645"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <CheckBox
+        android:id="@+id/checkBox28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="منظار البطن"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.660"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="4"
+        android:hint="السنة"
+        android:textDirection="rtl"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNumber16"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="السنة"
+        android:maxLength="4"
+        android:textDirection="rtl"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.607" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNumber18"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="السنة"
+        android:textColorHint="@color/cardview_dark_background"
+        android:maxLength="4"
+        android:textColor="@color/black"
+        android:textDirection="rtl"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNumber7"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="السنة"
+        android:textDirection="rtl"
+        android:maxLength="4"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNumber17"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="السنة"
+        android:textDirection="rtl"
+        android:maxLength="4"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNumber19"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="السنة"
+        android:textDirection="rtl"
+        android:maxLength="4"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNumber21"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="السنة"
+        android:textDirection="rtl"
+        android:maxLength="4"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="اخرى"
+        android:maxLength="4"
+        android:textColor="@color/black"
+        android:textDirection="rtl"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76" />
+
+
+    <RadioGroup
+        android:id="@+id/Radio111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+        <RadioButton
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:buttonTint="@color/cardview_dark_background"
+            android:layoutDirection="rtl"
+            android:text="نعم"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:buttonTint="@color/cardview_dark_background"
+            android:layoutDirection="rtl"
+            android:text="لا"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/Radio222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
+
+        <RadioButton
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:buttonTint="@color/cardview_dark_background"
+            android:layoutDirection="rtl"
+            android:text="نعم"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:buttonTint="@color/cardview_dark_background"
+            android:layoutDirection="rtl"
+            android:text="لا"
+            android:textColor="@color/black" />
+
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">PatientHistory</string>
+
+    <string-array name="Years">
+        <item>2022</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>ذكر</item>
+        <item>انثى</item>
+    </string-array>
+
+    <string-array name="BirthType">
+        <item>طبيعي</item>
+        <item>قيسري</item>
+    </string-array>
+
+    <string-array name="Weight">
+        <item>أقل من 1 كغ</item>
+        <item>تقريبا 1 كغ</item>
+        <item>1 كغ</item>
+        <item>تقريبا 2 كغ</item>
+        <item>2 كغ</item>
+        <item>تقريبا 3 كغ</item>
+        <item> 3 كغ</item>
+        <item>أكثر من 3 كغ</item>
+    </string-array>
+
+    <string-array name="Month">
+        <item>9 أشهر</item>
+        <item>أقل من 9 أشهر</item>
+    </string-array>
+
+    <string-array name="MHours">
+        <item>أقل من 4 ساعات</item>
+        <item>بين 4 الى 8 ساعات</item>
+        <item>أقل من 8 ساعات</item>
+    </string-array>
+
+    <string-array name="HealthStatus">
+        <item>أقل من 4 ساعات</item>
+        <item>بين 4 الى 8 ساعات</item>
+        <item>أكثر من 8 ساعات</item>
+    </string-array>
+
+</resources>

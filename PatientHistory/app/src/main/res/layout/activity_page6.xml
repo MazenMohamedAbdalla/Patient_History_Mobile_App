@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E9E9"
+    tools:context=".Page_6">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/grey_circle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_button"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/submit_clk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_button2"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back_clk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="توقيع المريض"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.500" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="حدد أيا من الأعراض التي تعاني منها مؤخرا ؟"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="فقدان الوزن"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <CheckBox
+        android:id="@+id/checkBox45"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="تغيير في الطاقة"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <CheckBox
+        android:id="@+id/checkBox48"
+        android:layout_width="350dp"
+        android:layout_height="64dp"
+        android:layoutDirection="rtl"
+        android:text="أقر بصحة البيانات التي تم توفيرها و تحمل تبعات أي ضرر لاحق حال توفير اجابات خاطئية أو التعرض لعلاج و تشخيص خاطىء بناء على هذه البيانات"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.290"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
+
+    <CheckBox
+        android:id="@+id/checkBox42"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="زيادة وزن"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <CheckBox
+        android:id="@+id/checkBox43"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="نمو الشعر"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <CheckBox
+        android:id="@+id/checkBox46"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="إفرازات الثدي"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.400"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <CheckBox
+        android:id="@+id/checkBox44"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="فقدان الشعر"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <CheckBox
+        android:id="@+id/checkBox47"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="لا شيء من السابق"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="أخرى"
+        android:textDirection="rtl"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox46"
+        app:layout_constraintVertical_bias="0.146" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E9E9"
+    tools:context=".Page_4">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/grey_circle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_button"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/next_clk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_button2"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back_clk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="هل هناك عمليات جراحية اخرى غير الولادة و أمراض النساء ؟"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="حدد ما إذا تعرضت لاي من الاتي ؟"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="يرجى تحديد الاتي إذا كانت إجابة السؤال السابق نعم ؟"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <CheckBox
+        android:id="@+id/checkBox20"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="التهاب المفاصل"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox31"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="مرض كلوي"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <CheckBox
+        android:id="@+id/checkBox34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="نقل دم"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <CheckBox
+        android:id="@+id/checkBox29"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="اضطرابات الطعام"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.790"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <CheckBox
+        android:id="@+id/checkBox36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="الصرع"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+
+    <CheckBox
+        android:id="@+id/checkBox33"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="أمراض قلب"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.790"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox30"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="ضغط دم مرتفع"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox32"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="انتفاخ الرئة"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <CheckBox
+        android:id="@+id/checkBox35"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl"
+        android:text="التهاب الغدة الدرقية"
+        android:textColor="@color/black"
+        android:buttonTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="العملية الجراحية"
+        android:textDirection="rtl"
+        android:textColorHint="@color/cardview_dark_background"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextNumber21"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="السنة"
+        android:textDirection="rtl"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="270dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:textDirection="rtl"
+        android:hint="تاريخ اخر مسحة عنق رحم إذا تم اجراؤها"
+        android:inputType="date"
+        android:textColorHint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="اخرى"
+        android:textDirection="rtl"
+        android:textColorHint="@color/cardview_dark_background"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <RadioGroup
+        android:id="@+id/Radio111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <RadioButton
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:buttonTint="@color/cardview_dark_background"
+            android:layoutDirection="rtl"
+            android:text="نعم"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:buttonTint="@color/cardview_dark_background"
+            android:layoutDirection="rtl"
+            android:text="لا"
+            android:textColor="@color/black" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
